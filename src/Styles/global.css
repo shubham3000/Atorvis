@@ -133,6 +133,7 @@ header ul li a
 .stories-details
 {
     margin-top: -250px;
+    padding: 0 3rem;
 }
 
 .stories-details h4
@@ -238,8 +239,8 @@ header ul li a
 .blog-date h4
 {
     font-weight: 600;
-    font-size: 16px;
-    color: #4D4D4D;
+    font-size: 16px !important;
+    color: #4D4D4D !important
 }
 
 .featured-head h4
@@ -790,6 +791,14 @@ header ul li a
     padding-right: 50px;
 }
 
+.details
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 500px) {
     .menu
     {
@@ -834,5 +843,200 @@ header ul li a
         text-align: left;
         font-size: 25px;
         line-height: 25px;
+    }
+
+    .home-brief h2, .service-details h2
+    {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .home-brief p, 
+    .service-details p,
+    .stories-details p,
+    .stories-details p, .client-review p,
+    .client-details h5, .client-details h6,
+    .featured-paragraph p,
+    .service-para p
+    {
+        font-size: 14px;
+    }
+
+    .stories-details h4,
+    .client h4, .client-review h3,
+    .featured-head h4,
+    .insights h3
+    {
+        font-size: 20px;
+    }
+    .stories-details p
+    {
+        margin-top: 0 !important;
+    }
+
+    .stories-details
+    {
+        margin-top: -165px;
+        padding: 0;
+    }
+
+    .success h3, .service-head h3, .blog-head h3,
+    .details h4, .featured h3
+    {
+        font-size: 40px;
+    }
+
+    .client
+    {
+        margin-bottom: 2rem !important;
+    }
+
+    .arrow-next
+    {
+        text-align: center;
+    }
+
+    .project-details
+    {
+        height: 150px;
+    }
+    .details p,
+    .featured-date h3, .featured-date h4, .blog-date h3, .blog-date h4,
+    .writer h4, .blog-heading h4
+    {
+        font-size: 12px;
+    }
+
+    .featured
+    {
+        flex-direction: column;
+    }
+
+    .featured button
+    {
+        width: 150px;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    .subscribe
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe button
+    {
+        position: initial;
+        margin-top: 15px;
+    }
+
+    .social h4,
+    .about h4
+    {
+        text-align: center;
+    }
+
+    .contact
+    {
+        height: 550px;
+    }
+
+    .about
+    {
+        padding: 0px !important;
+        margin-top: 40px;
+    }
+
+    .copyright ul li a
+    {
+        padding: 8px;
+    }
+
+    .read-more
+    {
+        position: initial;
+    }
+
+    .pattern
+    {
+        display: none;
+    }
+    
+    .home1
+    {
+        height: 900px;
+    }
+
+    .quote
+    {
+        margin-top: 125px !important;
+    }
+    .quote-img
+    {
+        height: 50px;
+        width: 65px;
+    }
+
+    .quote-para p
+    {
+        font-size: 20px;
+    line-height: 25px;
+    }
+
+    .home--detailsbg h1
+    {
+        font-size: 60px;
+    line-height: 70px;
+    }
+
+    .story p, .mission p, .principles p
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .story h3, .mission h3, .principles h3
+    {
+        margin-bottom: 25px;
+    }
+
+    .explore h2
+    {
+        font-size: 40px;
+    line-height: 50px;
+    }
+
+    .comment-section .message input, .comment-section .message textarea
+    {
+        width: 100%;
+    }
+
+    .comment-section
+    {
+        padding-top: 36px;
+     padding-bottom: 55px;
+    }
+
+    .blog-paragragh
+    {
+        padding-bottom: 50px;
+        padding-right: 0;
+    }
+
+    .highlight-details
+    {
+        bottom: 12px;
+    }
+
+    .highlight-details h3, .blog-details h3
+    {
+        font-size: 20px;
+    }
+
+    .writer
+    {
+        bottom: 0;
     }
 }

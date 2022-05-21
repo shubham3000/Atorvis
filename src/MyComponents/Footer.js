@@ -7,16 +7,16 @@ export default function Footer() {
         <div className="container">
             <div className="footer d-flex flex-column justify-content-center">
                 <div className="row">
-                    <div className="col-lg-2">
+                    <div className="offset-md-0 offset-1 col-3 col-lg-2 col-md-6  order-1 order-md-1">
                         <img src='images/Home/atorvislogofooter.svg' />
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 col-sm-12 col-md-6 order-3 order-md-2">
                         <div className="about" style={{padding: "0 50px"}}>
                             <h4>About Us</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="offset-md-0 offset-2 col-5 col-lg-2 col-md-6 order-2 order-md-3">
                         <div className="social">
                             <h4>Follow Us</h4>
                             <div className="social-icons">

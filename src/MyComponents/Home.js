@@ -44,30 +44,43 @@ export default function home() {
                         <div className="stories">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <img src='images/Home/stories1.svg' />
+                                    <div className="stories-img">
+                                        <img src='images/Home/stories1.svg' />
+                                    </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <img src='images/Home/stories2.svg' />
-                                    <div className="stories-details px-5">
-                                        <h4>Lorem Ipsum is simply dummy text</h4>
-                                        <p className='mt-5'>of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                        </p>
-                                        <Link to="#">Read more <i className="fal fa-long-arrow-right" /></Link>
+                                    <div className="stories-wrap">
+                                        <div className="stories-img">
+                                            <img src='images/Home/stories2.svg' />
+                                        </div>
+                                        <div className="stories-details">
+                                            <h4>Lorem Ipsum is simply dummy text</h4>
+                                            <p className='mt-5'>of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                            </p>
+                                            <Link to="#">Read more <i className="fal fa-long-arrow-right" /></Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-lg-6">
-                                    <img src='images/Home/stories3.svg' />
-                                    <div className="stories-details px-5">
-                                        <h4>Lorem Ipsum is simply dummy text</h4>
-                                        <p className='mt-5'>of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                        </p>
-                                        <Link to="#">Read more <i className="fal fa-long-arrow-right" /></Link>
+                                <div className="col-lg-6 order-md-1 order-2">
+                                    <div className="stories-wrap">
+                                        <div className="stories-img">
+                                            <img src='images/Home/stories3.svg' />
+                                        </div>
+                                        <div className="stories-details">
+                                            <h4>Lorem Ipsum is simply dummy text</h4>
+                                            <p className='mt-5'>of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                            </p>
+                                            <Link to="#">Read more <i className="fal fa-long-arrow-right" /></Link>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
-                                    <img src='images/Home/stories4.svg' />
+                                <div className="col-lg-6 order-md-2 order-1">
+                                    <div className="stories-img">
+                                        <img src='images/Home/stories4.svg' />
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -80,7 +93,7 @@ export default function home() {
                     <div className="home d-flex align-items-center">
                         <div className="service-details text-center">
                             <h2>Services we provide</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p className='mt-5'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
                 </div>
@@ -124,19 +137,19 @@ export default function home() {
             <section style={{background: "#4D4D4D"}}>
                 <div className="container my-5">
                     <div className="project-details d-flex justify-content-between align-items-center">
-                        <div className="details d-flex justify-content-center flex-column align-items-center">
+                        <div className="details">
                             <h4>6</h4>
                             <p>Happy Clients</p>
                         </div>
-                        <div className="details d-flex justify-content-center flex-column align-items-center">
+                        <div className="details">
                             <h4>11</h4>
                             <p>Completed Projects</p>
                         </div>
-                        <div className="details d-flex justify-content-center flex-column align-items-center">
+                        <div className="details">
                             <h4>7M</h4>
                             <p>Transactions</p>
                         </div>
-                        <div className="details d-flex justify-content-center flex-column align-items-center">
+                        <div className="details">
                             <h4>600+</h4>
                             <p>Customers</p>
                         </div>
@@ -191,7 +204,7 @@ export default function home() {
                                     <img src='images/Home/featuredblog1.svg'/>
                                 </div>
                                 <div className="blog-details">
-                                    <div className="blog-date d-flex">
+                                    <div className="blog-date d-flex align-items-baseline">
                                         <h3 style={{marginRight: "35px"}}>08-11-2021</h3>
                                         <h4>Category</h4>
                                     </div>
@@ -207,7 +220,7 @@ export default function home() {
                                     <img src='images/Home/featuredblog2.svg'/>
                                 </div>
                                 <div className="blog-details">
-                                    <div className="blog-date d-flex">
+                                    <div className="blog-date d-flex align-items-baseline">
                                         <h3 style={{marginRight: "35px"}}>08-11-2021</h3>
                                         <h4>Category</h4>
                                     </div>
@@ -222,7 +235,7 @@ export default function home() {
                                     <img src='images/Home/featuredblog3.svg'/>
                                 </div>
                                 <div className="blog-details">
-                                    <div className="blog-date d-flex">
+                                    <div className="blog-date d-flex align-items-baseline">
                                         <h3 style={{marginRight: "35px"}}>08-11-2021</h3>
                                         <h4>Category</h4>
                                     </div>
@@ -237,7 +250,7 @@ export default function home() {
                                     <img src='images/Home/featuredblog4.svg'/>
                                 </div>
                                 <div className="blog-details">
-                                    <div className="blog-date d-flex">
+                                    <div className="blog-date d-flex align-items-baseline">
                                         <h3 style={{marginRight: "35px"}}>08-11-2021</h3>
                                         <h4>Category</h4>
                                     </div>
